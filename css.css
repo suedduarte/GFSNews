@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo-imagem{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background .5s;
+}
+
+.menu li a:hover{
+    background-color: rgb(98, 22, 156);
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+.container-contents{
+    display: flexbox;
+    align-items:flex-start;
+}
+
+.contents-title{
+    font-size: larger;
+    text-align: center;
+    font: arial;
+    word-spacing:-3px;
+}
+
+.contents-text{
+    font-size: medium;
+    font: normal 18px times;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-indent: 20px;
+}
+
+.contents-imagem{
+    margin-right: 10px;
+}
+
+.list{
+    margin-left: 80px;
+    font-size: medium;
+    text-align: justify;
+    margin-right: 40px;
+    font: arial;
+}
+
+section{
+    width: 100%;
+}
+
+.contents-title2{
+    font-size: larger;
+    margin-left: 200px;
+    font: arial;
+    word-spacing:-3px;
+}
+
+.contents-text2{
+    font-size: medium;
+    font: normal 18px times;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-indent: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-text{
+    color: white;
+    font-size: large;
+}
+
+.time-image{
+    align-items: center;
+    margin-left: 200px;
+}
+
+.article{
+    margin-left: 50%;
+}
+
+.contents-text3{
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: px;
+}
+
+form{
+    font-size: medium;
+    text-align: start;
+    text-indent: 10px;
+}
+
+.contents-title3{
+    font-size: 30px;
+    margin-left: 260px;
+    font: arial;
+    word-spacing:-3px;
+}
